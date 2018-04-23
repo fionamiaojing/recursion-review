@@ -15,7 +15,6 @@ var getElementsByClassName = function(className
     if (nodes.childNodes) {
       var children = nodes.childNodes;
       children.forEach(function(item) {
-        console.log(item)
         searchNodes(item);
       });
     }
